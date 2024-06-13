@@ -1,0 +1,29 @@
+{
+  "manifest_version": 3,
+  "name": "aplisker",
+  "version": "1.0",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "webNavigation",
+    "activeTab",
+    "tabs",
+    "scripting"
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "aplisker@fduenez.com"
+    }
+  },
+
+
+  "description": "Adds a red border to all webpages matching mozilla.org.",
+
+  "icons": {
+    "48": "icons/border-48.png"
+  }
+}
